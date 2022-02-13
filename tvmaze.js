@@ -24,7 +24,7 @@ function populateShows(shows) {
 	$showsList.empty();
 	for (let show of shows) {
 		let $item = $(
-			`<div class="col-md-6 col-lg-3 Show" data-show-id="${show.id}">
+			`<div class="col-md-6 col-lg-3" data-show-id="${show.id}">
          <div class="card" data-show-id="${show.id}">
           <img class="card-img-top" src="${show.image}">
            <div class="card-body">
